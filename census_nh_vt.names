@@ -1,0 +1,36 @@
+
+1. Title: 2015 Cleaned Census Extract Comparing New Hampshire and Vermont
+
+2. Source:
+   - Minnesota Population Center:
+   Sarah Flood, Miriam King, Steven Ruggles, and J. Robert Warren. Integrated Public Use Microdata Series, Current Population Survey: Version 4.0. [Machine-readable database]. Minneapolis: University of Minnesota, 2016.
+
+3. Past usage:
+   - None
+
+4. Relevant information:
+   - This dataset is provided in a cleaned form, which 
+   reflects many implicit choices motivated by the purpose
+   of the dataset's construction.  For original data please
+   reference 2015 Annual Social and Economic Supplement or the Current Population Survey.
+   - Prediction task: Predict residence in New Hampshire or Vermont with the economics variables provided.
+
+5. Number of instances: 5,175
+
+6. Number of attributes:
+   - 15, including the residency attribute.  All are integers.
+  1. age: 0 is missing. Top-coded at 85.
+  2. numfamily: Number of family members in household.
+  3. education_hs: 1 if respondent completed high school.
+  4. education_college: 1 if respondent completed college.
+  5. state_nh: 1 if respondent is resident of NH, 0 if respondent resides in VT.
+  6. sex_male: 1 if respondent is male.
+  7. school_status_attending: 1 if respondent is in high school or college.
+  8. race_white: 1 if respondent is white, 0 if other or missing.
+  9. labor_status_working: 1 if respondent self-identified as in the labor force.
+  10. personal_income_none: 1 if respondent has no personal income.
+  11. hh_income_cleaned: household income, 0 if missing.
+  12. personal_income_cleaned: personal income, 0 if missing.
+  13. fam_income_cleaned: family income, 0 if missing.
+  14. married_now: 1 if respondent is married, 0 otherwise.
+  15. wage_income_cleaned: respondent's income from wages earned, 0 if missing or none.
